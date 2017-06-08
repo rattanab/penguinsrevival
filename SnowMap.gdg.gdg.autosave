@@ -86,6 +86,10 @@
             <resource alwaysLoaded="false" file="2.png" kind="image" name="2.png" smoothed="true" userAdded="true" />
             <resource alwaysLoaded="false" file="1.png" kind="image" name="1.png" smoothed="true" userAdded="true" />
             <resource alwaysLoaded="false" file="3.png" kind="image" name="3.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="full_live.png" kind="image" name="full_live.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="first_hit.png" kind="image" name="first_hit.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="second_hit.png" kind="image" name="second_hit.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="Bullet.png" kind="image" name="Bullet.png" smoothed="true" userAdded="true" />
         </resources>
         <resourceFolders>
             <folder name="Soldiers">
@@ -155,13 +159,13 @@
                                         <sprite hasCustomCollisionMask="false" image="snow_ground.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="320.000000" y="320.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="640.000000" y="0.000000" />
+                                                    <vertice x="640.000000" y="640.000000" />
+                                                    <vertice x="0.000000" y="640.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -182,13 +186,13 @@
                                         <sprite hasCustomCollisionMask="false" image="SnowTree64x64.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="32.000000" y="32.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="64.000000" y="0.000000" />
+                                                    <vertice x="64.000000" y="64.000000" />
+                                                    <vertice x="0.000000" y="64.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -217,13 +221,13 @@
                                         <sprite hasCustomCollisionMask="false" image="play_now_selected.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="231.500000" y="83.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="463.000000" y="0.000000" />
+                                                    <vertice x="463.000000" y="166.000000" />
+                                                    <vertice x="0.000000" y="166.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -238,13 +242,13 @@
                                         <sprite hasCustomCollisionMask="false" image="play_now.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="231.500000" y="83.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="463.000000" y="0.000000" />
+                                                    <vertice x="463.000000" y="166.000000" />
+                                                    <vertice x="0.000000" y="166.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -265,13 +269,13 @@
                                         <sprite hasCustomCollisionMask="false" image="how_to_play.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="231.500000" y="83.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="463.000000" y="0.000000" />
+                                                    <vertice x="463.000000" y="166.000000" />
+                                                    <vertice x="0.000000" y="166.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -286,13 +290,13 @@
                                         <sprite hasCustomCollisionMask="false" image="how_to_play_selected.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="231.500000" y="83.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="463.000000" y="0.000000" />
+                                                    <vertice x="463.000000" y="166.000000" />
+                                                    <vertice x="0.000000" y="166.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -313,13 +317,13 @@
                                         <sprite hasCustomCollisionMask="false" image="high scores.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="231.500000" y="83.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="463.000000" y="0.000000" />
+                                                    <vertice x="463.000000" y="166.000000" />
+                                                    <vertice x="0.000000" y="166.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -334,13 +338,13 @@
                                         <sprite hasCustomCollisionMask="false" image="high_score_selected.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="231.500000" y="83.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="463.000000" y="0.000000" />
+                                                    <vertice x="463.000000" y="166.000000" />
+                                                    <vertice x="0.000000" y="166.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -361,13 +365,13 @@
                                         <sprite hasCustomCollisionMask="false" image="penguin-46517_1280.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="615.500000" y="640.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="1231.000000" y="0.000000" />
+                                                    <vertice x="1231.000000" y="1280.000000" />
+                                                    <vertice x="0.000000" y="1280.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -682,7 +686,9 @@
         <layout b="209" disableInputWhenNotFocused="true" mangledName="Snow_32Map" name="Snow Map" oglFOV="90.000000" oglZFar="500.000000" oglZNear="1.000000" r="209" standardSortMethod="true" stopSoundsOnStartup="true" title="" v="209">
             <uiSettings grid="true" gridB="255" gridG="180" gridHeight="32" gridOffsetX="0" gridOffsetY="0" gridR="158" gridWidth="32" snap="true" windowMask="true" zoomFactor="1.000000" />
             <objectsGroups />
-            <variables />
+            <variables>
+                <variable name="lives" value="0" />
+            </variables>
             <instances>
                 <instance angle="0.000000" customSize="false" height="0.000000" layer="Tree" locked="false" name="NewObject3" width="0.000000" x="32.000000" y="-32.000000" zOrder="1">
                     <numberProperties />
@@ -1534,17 +1540,22 @@
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="Ice" locked="false" name="score_label" width="0.000000" x="608.000000" y="23.000000" zOrder="9">
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="Ice" locked="false" name="score_label" width="0.000000" x="591.000000" y="8.000000" zOrder="9">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="Ice" locked="false" name="score" width="0.000000" x="677.000000" y="23.000000" zOrder="10">
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="Ice" locked="false" name="score" width="0.000000" x="672.000000" y="9.000000" zOrder="10">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
                 <instance angle="0.000000" customSize="true" height="64.000000" layer="" locked="false" name="score_bak" width="160.000000" x="576.000000" y="0.000000" zOrder="11">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="10.000000" layer="" locked="false" name="lives" width="150.000000" x="580.000000" y="41.000000" zOrder="12">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
@@ -1579,13 +1590,13 @@
                                         <sprite hasCustomCollisionMask="false" image="SnowTree64x64.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="32.000000" y="32.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="64.000000" y="0.000000" />
+                                                    <vertice x="64.000000" y="64.000000" />
+                                                    <vertice x="0.000000" y="64.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -1606,13 +1617,13 @@
                                         <sprite hasCustomCollisionMask="false" image="snow_ground.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="320.000000" y="320.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="640.000000" y="0.000000" />
+                                                    <vertice x="640.000000" y="640.000000" />
+                                                    <vertice x="0.000000" y="640.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -1633,13 +1644,13 @@
                                         <sprite hasCustomCollisionMask="false" image="LeftSideCliffs.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="24.000000" y="26.500000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="48.000000" y="0.000000" />
+                                                    <vertice x="48.000000" y="53.000000" />
+                                                    <vertice x="0.000000" y="53.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -1660,13 +1671,13 @@
                                         <sprite hasCustomCollisionMask="false" image="LeftBottomCliffs.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="24.000000" y="37.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="48.000000" y="0.000000" />
+                                                    <vertice x="48.000000" y="74.000000" />
+                                                    <vertice x="0.000000" y="74.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -1687,13 +1698,13 @@
                                         <sprite hasCustomCollisionMask="false" image="icesheet.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="48.000000" y="16.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="96.000000" y="0.000000" />
+                                                    <vertice x="96.000000" y="32.000000" />
+                                                    <vertice x="0.000000" y="32.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -1714,13 +1725,13 @@
                                         <sprite hasCustomCollisionMask="false" image="Small_IcePond.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="11.000000" y="12.500000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="22.000000" y="0.000000" />
+                                                    <vertice x="22.000000" y="25.000000" />
+                                                    <vertice x="0.000000" y="25.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -1741,13 +1752,13 @@
                                         <sprite hasCustomCollisionMask="false" image="LeftSideIce.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="16.000000" y="16.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="32.000000" y="0.000000" />
+                                                    <vertice x="32.000000" y="32.000000" />
+                                                    <vertice x="0.000000" y="32.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -1768,13 +1779,13 @@
                                         <sprite hasCustomCollisionMask="false" image="TopSideIce - Copy.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="50.000000" y="50.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="100.000000" y="0.000000" />
+                                                    <vertice x="100.000000" y="100.000000" />
+                                                    <vertice x="0.000000" y="100.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -1795,13 +1806,13 @@
                                         <sprite hasCustomCollisionMask="false" image="BottomSideIce.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="16.000000" y="16.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="32.000000" y="0.000000" />
+                                                    <vertice x="32.000000" y="32.000000" />
+                                                    <vertice x="0.000000" y="32.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -1822,13 +1833,13 @@
                                         <sprite hasCustomCollisionMask="false" image="RightSideIce.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="16.000000" y="16.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="32.000000" y="0.000000" />
+                                                    <vertice x="32.000000" y="32.000000" />
+                                                    <vertice x="0.000000" y="32.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -1849,13 +1860,13 @@
                                         <sprite hasCustomCollisionMask="false" image="LBIceCorner.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="16.000000" y="16.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="32.000000" y="0.000000" />
+                                                    <vertice x="32.000000" y="32.000000" />
+                                                    <vertice x="0.000000" y="32.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -1876,13 +1887,13 @@
                                         <sprite hasCustomCollisionMask="false" image="RTIceCorner.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="16.000000" y="16.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="32.000000" y="0.000000" />
+                                                    <vertice x="32.000000" y="32.000000" />
+                                                    <vertice x="0.000000" y="32.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -1903,13 +1914,13 @@
                                         <sprite hasCustomCollisionMask="false" image="RBIceCorner.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="16.000000" y="16.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="32.000000" y="0.000000" />
+                                                    <vertice x="32.000000" y="32.000000" />
+                                                    <vertice x="0.000000" y="32.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -1930,13 +1941,13 @@
                                         <sprite hasCustomCollisionMask="false" image="RightSideIce.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="16.000000" y="16.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="32.000000" y="0.000000" />
+                                                    <vertice x="32.000000" y="32.000000" />
+                                                    <vertice x="0.000000" y="32.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -1970,13 +1981,13 @@
                                         <sprite hasCustomCollisionMask="false" image="BottomCliffs.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="36.000000" y="38.500000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="72.000000" y="0.000000" />
+                                                    <vertice x="72.000000" y="77.000000" />
+                                                    <vertice x="0.000000" y="77.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -2010,13 +2021,13 @@
                                         <sprite hasCustomCollisionMask="false" image="BottomSideIce.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="16.000000" y="16.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="32.000000" y="0.000000" />
+                                                    <vertice x="32.000000" y="32.000000" />
+                                                    <vertice x="0.000000" y="32.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -2037,13 +2048,13 @@
                                         <sprite hasCustomCollisionMask="false" image="TopSideIce.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="16.000000" y="16.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="32.000000" y="0.000000" />
+                                                    <vertice x="32.000000" y="32.000000" />
+                                                    <vertice x="0.000000" y="32.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -2064,13 +2075,13 @@
                                         <sprite hasCustomCollisionMask="false" image="BottomSideIce.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="16.000000" y="16.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="32.000000" y="0.000000" />
+                                                    <vertice x="32.000000" y="32.000000" />
+                                                    <vertice x="0.000000" y="32.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -2117,13 +2128,13 @@
                                         <sprite hasCustomCollisionMask="false" image="LTIceCorner.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="16.000000" y="16.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="32.000000" y="0.000000" />
+                                                    <vertice x="32.000000" y="32.000000" />
+                                                    <vertice x="0.000000" y="32.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -2144,13 +2155,13 @@
                                         <sprite hasCustomCollisionMask="false" image="building1.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="80.000000" y="55.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="160.000000" y="0.000000" />
+                                                    <vertice x="160.000000" y="110.000000" />
+                                                    <vertice x="0.000000" y="110.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -2184,39 +2195,39 @@
                                         <sprite hasCustomCollisionMask="false" image="5.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="50.000000" />
+                                                    <vertice x="0.000000" y="50.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
                                         <sprite hasCustomCollisionMask="false" image="4.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="50.000000" />
+                                                    <vertice x="0.000000" y="50.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
                                         <sprite hasCustomCollisionMask="false" image="6.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="50.000000" />
+                                                    <vertice x="0.000000" y="50.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -2231,39 +2242,39 @@
                                         <sprite hasCustomCollisionMask="false" image="8.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="50.000000" />
+                                                    <vertice x="0.000000" y="50.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
                                         <sprite hasCustomCollisionMask="false" image="7.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="50.000000" />
+                                                    <vertice x="0.000000" y="50.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
                                         <sprite hasCustomCollisionMask="false" image="9.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="50.000000" />
+                                                    <vertice x="0.000000" y="50.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -2278,39 +2289,39 @@
                                         <sprite hasCustomCollisionMask="false" image="11.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="50.000000" />
+                                                    <vertice x="0.000000" y="50.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
                                         <sprite hasCustomCollisionMask="false" image="12.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="50.000000" />
+                                                    <vertice x="0.000000" y="50.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
                                         <sprite hasCustomCollisionMask="false" image="10.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="50.000000" />
+                                                    <vertice x="0.000000" y="50.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -2325,39 +2336,39 @@
                                         <sprite hasCustomCollisionMask="false" image="2.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="50.000000" />
+                                                    <vertice x="0.000000" y="50.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
                                         <sprite hasCustomCollisionMask="false" image="1.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="50.000000" />
+                                                    <vertice x="0.000000" y="50.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
                                         <sprite hasCustomCollisionMask="false" image="3.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="50.000000" />
+                                                    <vertice x="0.000000" y="50.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -2380,7 +2391,7 @@
                                         <sprite hasCustomCollisionMask="true" image="e2.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="3.932846" y="22.515034" />
@@ -2393,7 +2404,7 @@
                                         <sprite hasCustomCollisionMask="true" image="e1.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="3.932846" y="22.515034" />
@@ -2406,7 +2417,7 @@
                                         <sprite hasCustomCollisionMask="true" image="e3.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="3.932846" y="22.515034" />
@@ -2433,39 +2444,39 @@
                                         <sprite hasCustomCollisionMask="false" image="8.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="50.000000" />
+                                                    <vertice x="0.000000" y="50.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
                                         <sprite hasCustomCollisionMask="false" image="7.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="50.000000" />
+                                                    <vertice x="0.000000" y="50.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
                                         <sprite hasCustomCollisionMask="false" image="9.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="50.000000" />
+                                                    <vertice x="0.000000" y="50.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -2502,13 +2513,82 @@
                                         <sprite hasCustomCollisionMask="false" image="blackbak.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="242.000000" y="104.000000" />
                                             <customCollisionMask>
                                                 <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="484.000000" y="0.000000" />
+                                                    <vertice x="484.000000" y="208.000000" />
+                                                    <vertice x="0.000000" y="208.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object name="lives" type="Sprite">
+                    <variables />
+                    <behaviors />
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="1.000000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="full_live.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="130.500000" y="12.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="261.000000" y="0.000000" />
+                                                    <vertice x="261.000000" y="24.000000" />
+                                                    <vertice x="0.000000" y="24.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="1.000000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="first_hit.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="130.500000" y="11.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="261.000000" y="0.000000" />
+                                                    <vertice x="261.000000" y="22.000000" />
+                                                    <vertice x="0.000000" y="22.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="1.000000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="second_hit.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="130.500000" y="11.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
                                                     <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="261.000000" y="0.000000" />
+                                                    <vertice x="261.000000" y="22.000000" />
+                                                    <vertice x="0.000000" y="22.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -2596,11 +2676,20 @@
                     </conditions>
                     <actions>
                         <action>
-                            <type inverted="false" value="Scene" />
+                            <type inverted="false" value="ChangeAnimation" />
                             <parameters>
-                                <parameter></parameter>
-                                <parameter>&quot;game_over&quot;</parameter>
-                                <parameter>true</parameter>
+                                <parameter>lives</parameter>
+                                <parameter>=</parameter>
+                                <parameter>1</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ModVarScene" />
+                            <parameters>
+                                <parameter>lives</parameter>
+                                <parameter>=</parameter>
+                                <parameter>2</parameter>
                             </parameters>
                             <subActions />
                         </action>
@@ -2762,6 +2851,77 @@
                             <subActions />
                         </action>
                     </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="Collision" />
+                            <parameters>
+                                <parameter>player</parameter>
+                                <parameter>enemy</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="VarScene" />
+                            <parameters>
+                                <parameter>lives</parameter>
+                                <parameter>=</parameter>
+                                <parameter>2</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="ChangeAnimation" />
+                            <parameters>
+                                <parameter>lives</parameter>
+                                <parameter>=</parameter>
+                                <parameter>2</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ModVarScene" />
+                            <parameters>
+                                <parameter>lives</parameter>
+                                <parameter>=</parameter>
+                                <parameter>3</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="Collision" />
+                            <parameters>
+                                <parameter>player</parameter>
+                                <parameter>enemy</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                        <condition>
+                            <type inverted="false" value="VarScene" />
+                            <parameters>
+                                <parameter>lives</parameter>
+                                <parameter>=</parameter>
+                                <parameter>3</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions />
                     <events />
                 </event>
             </events>
