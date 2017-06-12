@@ -738,6 +738,29 @@
                         <object name="TopTree" />
                     </objects>
                 </group>
+                <group name="ZombieUp">
+                    <objects>
+                        <object name="SnowGround" />
+                        <object name="IceSheet" />
+                        <object name="LBCornerBank" />
+                        <object name="TopInvisWall" />
+                        <object name="RBCornerBank" />
+                        <object name="BottomTree" />
+                        <object name="TopIceBank" />
+                    </objects>
+                </group>
+                <group name="ZombieBottom">
+                    <objects>
+                        <object name="BottomIceBank" />
+                        <object name="RTCornerBank" />
+                        <object name="LTCornerBank" />
+                        <object name="LeftInvisWall" />
+                        <object name="BottomInvisWall" />
+                        <object name="BottomFaceCliff" />
+                        <object name="LeftCliffFace" />
+                        <object name="TopTree" />
+                    </objects>
+                </group>
             </objectsGroups>
             <variables />
             <instances>
@@ -1146,7 +1169,7 @@
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="1.080925" customSize="true" height="32.000000" layer="Entities" locked="false" name="player" width="32.000000" x="0.000000" y="32.000000" zOrder="8">
+                <instance angle="1.080925" customSize="true" height="32.000000" layer="Entities" locked="false" name="player" width="32.000000" x="160.000000" y="384.000000" zOrder="8">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
@@ -2862,7 +2885,7 @@
                     </actions>
                     <events />
                 </event>
-                <event disabled="true" folded="false">
+                <event disabled="false" folded="false">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -3124,7 +3147,7 @@
                         </event>
                     </events>
                 </event>
-                <event disabled="false" folded="false">
+                <event disabled="true" folded="false">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -3152,8 +3175,132 @@
                 <event disabled="false" folded="false">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions />
-                    <actions />
-                    <events />
+                    <actions>
+                        <action>
+                            <type inverted="false" value="AddForceVers" />
+                            <parameters>
+                                <parameter>enemy</parameter>
+                                <parameter>player</parameter>
+                                <parameter>20</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="Collision" />
+                                    <parameters>
+                                        <parameter>enemy</parameter>
+                                        <parameter>ZombieUp</parameter>
+                                        <parameter></parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="AddForceXY" />
+                                    <parameters>
+                                        <parameter>enemy</parameter>
+                                        <parameter>0</parameter>
+                                        <parameter>-20</parameter>
+                                        <parameter>0</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="Collision" />
+                                    <parameters>
+                                        <parameter>enemy</parameter>
+                                        <parameter>ZombieBottom</parameter>
+                                        <parameter></parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="AddForceXY" />
+                                    <parameters>
+                                        <parameter>enemy</parameter>
+                                        <parameter>0</parameter>
+                                        <parameter>20</parameter>
+                                        <parameter>0</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="Collision" />
+                                    <parameters>
+                                        <parameter>enemy</parameter>
+                                        <parameter>LeftKey</parameter>
+                                        <parameter></parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="AddForceXY" />
+                                    <parameters>
+                                        <parameter>enemy</parameter>
+                                        <parameter>20</parameter>
+                                        <parameter>0</parameter>
+                                        <parameter>0</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="Collision" />
+                                    <parameters>
+                                        <parameter>enemy</parameter>
+                                        <parameter>RightKey</parameter>
+                                        <parameter></parameter>
+                                        <parameter></parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="AddForceXY" />
+                                    <parameters>
+                                        <parameter>enemy</parameter>
+                                        <parameter>-20</parameter>
+                                        <parameter>0</parameter>
+                                        <parameter>0</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                    </events>
                 </event>
             </events>
             <layers>
