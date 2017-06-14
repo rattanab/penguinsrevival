@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <project firstLayout="">
-    <gdVersion build="92" major="4" minor="0" revision="0" />
+    <gdVersion build="94" major="4" minor="0" revision="0" />
     <properties folderProject="false" linuxExecutableFilename="" macExecutableFilename="" packageName="" useExternalSourceFiles="false" winExecutableFilename="" winExecutableIconFile="">
         <name>Penguin</name>
         <author>4ian ( Compil Games )</author>
@@ -1781,7 +1781,7 @@
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="enemy" width="0.000000" x="160.000000" y="288.000000" zOrder="8">
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="enemy" width="0.000000" x="160.000000" y="96.000000" zOrder="8">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
@@ -2878,6 +2878,42 @@
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
+                            <type inverted="false" value="Timer" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>5</parameter>
+                                <parameter>&quot;EnemyCreation&quot;</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="ResetTimer" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>&quot;EnemyCreation&quot;</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="Create" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>enemy</parameter>
+                                <parameter>32</parameter>
+                                <parameter>32</parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
                             <type inverted="false" value="KeyPressed" />
                             <parameters>
                                 <parameter></parameter>
@@ -3309,6 +3345,13 @@
                             <subActions />
                         </action>
                         <action>
+                            <type inverted="false" value="Arreter" />
+                            <parameters>
+                                <parameter>enemy</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
                             <type inverted="false" value="ModVarObjet" />
                             <parameters>
                                 <parameter>player</parameter>
@@ -3328,9 +3371,28 @@
                             <subActions />
                         </action>
                         <action>
-                            <type inverted="false" value="Cache" />
+                            <type inverted="false" value="Delete" />
                             <parameters>
                                 <parameter>enemy</parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions />
+                    <actions>
+                        <action>
+                            <type inverted="false" value="AddForceVersPos" />
+                            <parameters>
+                                <parameter>enemy</parameter>
+                                <parameter>player.X()</parameter>
+                                <parameter>player.Y()</parameter>
+                                <parameter>20</parameter>
+                                <parameter>0</parameter>
                             </parameters>
                             <subActions />
                         </action>
