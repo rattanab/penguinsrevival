@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <project firstLayout="">
-    <gdVersion build="94" major="4" minor="0" revision="0" />
+    <gdVersion build="92" major="4" minor="0" revision="0" />
     <properties folderProject="false" linuxExecutableFilename="" macExecutableFilename="" packageName="" useExternalSourceFiles="false" winExecutableFilename="" winExecutableIconFile="">
         <name>Penguin</name>
         <author>4ian ( Compil Games )</author>
@@ -97,13 +97,6 @@
             <resource alwaysLoaded="false" file="LeftTree.png" kind="image" name="LeftTree.png" smoothed="true" userAdded="true" />
             <resource alwaysLoaded="false" file="RightTree.png" kind="image" name="RightTree.png" smoothed="true" userAdded="true" />
             <resource alwaysLoaded="false" file="TopTree.png" kind="image" name="TopTree.png" smoothed="true" userAdded="true" />
-<<<<<<< HEAD
-            <resource alwaysLoaded="false" file="Bullet.png" kind="image" name="Bullet.png" smoothed="true" userAdded="false" />
-            <resource alwaysLoaded="false" file="dyingzombie_front1.png" kind="image" name="dyingzombie_front1.png" smoothed="true" userAdded="false" />
-            <resource alwaysLoaded="false" file="dyingzombie_front2.png" kind="image" name="dyingzombie_front2.png" smoothed="true" userAdded="false" />
-            <resource alwaysLoaded="false" file="dyingzombie_front3.png" kind="image" name="dyingzombie_front3.png" smoothed="true" userAdded="false" />
-            <resource alwaysLoaded="false" file="dyingzombie_front4.png" kind="image" name="dyingzombie_front4.png" smoothed="true" userAdded="false" />
-=======
             <resource alwaysLoaded="false" file="Bullet.png" kind="image" name="Bullet.png" smoothed="true" userAdded="true" />
             <resource alwaysLoaded="false" file="dyingzombie_left2.png" kind="image" name="dyingzombie_left2.png" smoothed="true" userAdded="true" />
             <resource alwaysLoaded="false" file="dyingzombie_front3.png" kind="image" name="dyingzombie_front3.png" smoothed="true" userAdded="true" />
@@ -111,7 +104,6 @@
             <resource alwaysLoaded="false" file="blank.png" kind="image" name="blank.png" smoothed="true" userAdded="true" />
             <resource alwaysLoaded="false" file="full_live.png" kind="image" name="full_live.png" smoothed="true" userAdded="true" />
             <resource alwaysLoaded="false" file="first_hit.png" kind="image" name="first_hit.png" smoothed="true" userAdded="true" />
->>>>>>> feature/Dan
         </resources>
         <resourceFolders>
             <folder name="Soldiers">
@@ -126,10 +118,7 @@
     <objectsGroups />
     <variables>
         <variable name="ez" value="" />
-<<<<<<< HEAD
-=======
         <variable name="lives" value="0" />
->>>>>>> feature/Dan
     </variables>
     <layouts>
         <layout b="209" disableInputWhenNotFocused="true" mangledName="menu" name="menu" oglFOV="90.000000" oglZFar="500.000000" oglZNear="1.000000" r="209" standardSortMethod="true" stopSoundsOnStartup="true" title="" v="209">
@@ -185,7 +174,6 @@
                                         <sprite hasCustomCollisionMask="false" image="snow_ground.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-<<<<<<< HEAD
                                             <centerPoint automatic="true" name="centre" x="320.000000" y="320.000000" />
                                             <customCollisionMask>
                                                 <polygon>
@@ -193,15 +181,6 @@
                                                     <vertice x="640.000000" y="0.000000" />
                                                     <vertice x="640.000000" y="640.000000" />
                                                     <vertice x="0.000000" y="640.000000" />
-=======
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
-                                            <customCollisionMask>
-                                                <polygon>
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
->>>>>>> feature/Dan
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -222,7 +201,6 @@
                                         <sprite hasCustomCollisionMask="false" image="SnowTree64x64.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-<<<<<<< HEAD
                                             <centerPoint automatic="true" name="centre" x="32.000000" y="32.000000" />
                                             <customCollisionMask>
                                                 <polygon>
@@ -230,15 +208,6 @@
                                                     <vertice x="64.000000" y="0.000000" />
                                                     <vertice x="64.000000" y="64.000000" />
                                                     <vertice x="0.000000" y="64.000000" />
-=======
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
-                                            <customCollisionMask>
-                                                <polygon>
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
->>>>>>> feature/Dan
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -267,7 +236,6 @@
                                         <sprite hasCustomCollisionMask="false" image="play_now_selected.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-<<<<<<< HEAD
                                             <centerPoint automatic="true" name="centre" x="231.500000" y="83.000000" />
                                             <customCollisionMask>
                                                 <polygon>
@@ -275,15 +243,6 @@
                                                     <vertice x="463.000000" y="0.000000" />
                                                     <vertice x="463.000000" y="166.000000" />
                                                     <vertice x="0.000000" y="166.000000" />
-=======
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
-                                            <customCollisionMask>
-                                                <polygon>
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
->>>>>>> feature/Dan
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -298,7 +257,6 @@
                                         <sprite hasCustomCollisionMask="false" image="play_now.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-<<<<<<< HEAD
                                             <centerPoint automatic="true" name="centre" x="231.500000" y="83.000000" />
                                             <customCollisionMask>
                                                 <polygon>
@@ -306,15 +264,6 @@
                                                     <vertice x="463.000000" y="0.000000" />
                                                     <vertice x="463.000000" y="166.000000" />
                                                     <vertice x="0.000000" y="166.000000" />
-=======
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
-                                            <customCollisionMask>
-                                                <polygon>
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
->>>>>>> feature/Dan
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -335,7 +284,6 @@
                                         <sprite hasCustomCollisionMask="false" image="how_to_play.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-<<<<<<< HEAD
                                             <centerPoint automatic="true" name="centre" x="231.500000" y="83.000000" />
                                             <customCollisionMask>
                                                 <polygon>
@@ -343,15 +291,6 @@
                                                     <vertice x="463.000000" y="0.000000" />
                                                     <vertice x="463.000000" y="166.000000" />
                                                     <vertice x="0.000000" y="166.000000" />
-=======
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
-                                            <customCollisionMask>
-                                                <polygon>
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
->>>>>>> feature/Dan
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -366,7 +305,6 @@
                                         <sprite hasCustomCollisionMask="false" image="how_to_play_selected.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-<<<<<<< HEAD
                                             <centerPoint automatic="true" name="centre" x="231.500000" y="83.000000" />
                                             <customCollisionMask>
                                                 <polygon>
@@ -374,15 +312,6 @@
                                                     <vertice x="463.000000" y="0.000000" />
                                                     <vertice x="463.000000" y="166.000000" />
                                                     <vertice x="0.000000" y="166.000000" />
-=======
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
-                                            <customCollisionMask>
-                                                <polygon>
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
->>>>>>> feature/Dan
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -403,7 +332,6 @@
                                         <sprite hasCustomCollisionMask="false" image="high scores.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-<<<<<<< HEAD
                                             <centerPoint automatic="true" name="centre" x="231.500000" y="83.000000" />
                                             <customCollisionMask>
                                                 <polygon>
@@ -411,15 +339,6 @@
                                                     <vertice x="463.000000" y="0.000000" />
                                                     <vertice x="463.000000" y="166.000000" />
                                                     <vertice x="0.000000" y="166.000000" />
-=======
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
-                                            <customCollisionMask>
-                                                <polygon>
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
->>>>>>> feature/Dan
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -434,7 +353,6 @@
                                         <sprite hasCustomCollisionMask="false" image="high_score_selected.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-<<<<<<< HEAD
                                             <centerPoint automatic="true" name="centre" x="231.500000" y="83.000000" />
                                             <customCollisionMask>
                                                 <polygon>
@@ -442,15 +360,6 @@
                                                     <vertice x="463.000000" y="0.000000" />
                                                     <vertice x="463.000000" y="166.000000" />
                                                     <vertice x="0.000000" y="166.000000" />
-=======
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
-                                            <customCollisionMask>
-                                                <polygon>
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
->>>>>>> feature/Dan
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -471,7 +380,6 @@
                                         <sprite hasCustomCollisionMask="false" image="penguin-46517_1280.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
-<<<<<<< HEAD
                                             <centerPoint automatic="true" name="centre" x="615.500000" y="640.000000" />
                                             <customCollisionMask>
                                                 <polygon>
@@ -479,15 +387,6 @@
                                                     <vertice x="1231.000000" y="0.000000" />
                                                     <vertice x="1231.000000" y="1280.000000" />
                                                     <vertice x="0.000000" y="1280.000000" />
-=======
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
-                                            <customCollisionMask>
-                                                <polygon>
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
->>>>>>> feature/Dan
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -802,7 +701,6 @@
         <layout b="209" disableInputWhenNotFocused="true" mangledName="Snow_32Map" name="Snow Map" oglFOV="90.000000" oglZFar="500.000000" oglZNear="1.000000" r="209" standardSortMethod="true" stopSoundsOnStartup="true" title="" v="209">
             <uiSettings grid="true" gridB="255" gridG="180" gridHeight="32" gridOffsetX="0" gridOffsetY="0" gridR="158" gridWidth="32" snap="true" windowMask="true" zoomFactor="1.000000" />
             <objectsGroups>
-<<<<<<< HEAD
                 <group name="UpKey">
                     <objects>
                         <object name="SnowGround" />
@@ -814,8 +712,6 @@
                         <object name="BottomTree" />
                     </objects>
                 </group>
-=======
->>>>>>> feature/Dan
                 <group name="RightKey">
                     <objects>
                         <object name="IceSheet" />
@@ -850,8 +746,6 @@
                         <object name="TopTree" />
                     </objects>
                 </group>
-<<<<<<< HEAD
-=======
                 <group name="ZombieUp">
                     <objects>
                         <object name="SnowGround" />
@@ -886,7 +780,6 @@
                         <object name="BottomTree" />
                     </objects>
                 </group>
->>>>>>> feature/Dan
             </objectsGroups>
             <variables />
             <instances>
@@ -1295,11 +1188,7 @@
                     <stringProperties />
                     <initialVariables />
                 </instance>
-<<<<<<< HEAD
-                <instance angle="1.080925" customSize="true" height="32.000000" layer="Entities" locked="false" name="player" width="32.000000" x="0.000000" y="32.000000" zOrder="8">
-=======
                 <instance angle="1.080925" customSize="true" height="32.000000" layer="Entities" locked="false" name="player" width="32.000000" x="160.000000" y="384.000000" zOrder="8">
->>>>>>> feature/Dan
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
@@ -1924,18 +1813,11 @@
                     <stringProperties />
                     <initialVariables />
                 </instance>
-<<<<<<< HEAD
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="enemy" width="0.000000" x="160.000000" y="448.000000" zOrder="7">
-=======
                 <instance angle="0.000000" customSize="true" height="32.000000" layer="Entities" locked="false" name="enemy" width="32.000000" x="36.000023" y="331.000000" zOrder="9">
->>>>>>> feature/Dan
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-<<<<<<< HEAD
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="enemy" width="0.000000" x="160.000000" y="96.000000" zOrder="8">
-=======
                 <instance angle="0.000000" customSize="true" height="32.000000" layer="Entities" locked="false" name="enemy" width="32.000000" x="117.999992" y="268.000000" zOrder="9">
                     <numberProperties />
                     <stringProperties />
@@ -1997,7 +1879,6 @@
                     <initialVariables />
                 </instance>
                 <instance angle="0.000000" customSize="true" height="13.000000" layer="" locked="false" name="lives" width="158.000000" x="578.000000" y="32.000000" zOrder="7">
->>>>>>> feature/Dan
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
@@ -2335,13 +2216,9 @@
                     </animations>
                 </object>
                 <object name="player" type="Sprite">
-<<<<<<< HEAD
                     <variables>
                         <variable name="score" value="0" />
                     </variables>
-=======
-                    <variables />
->>>>>>> feature/Dan
                     <behaviors>
                         <behavior acceleration="400.000000" allowDiagonals="true" angleOffset="0.000000" angularMaxSpeed="180.000000" cellHeight="20" cellWidth="20" extraBorder="0.000000" maxSpeed="200.000000" name="Pathfinding" rotateObject="true" type="PathfindingBehavior::PathfindingBehavior" />
                     </behaviors>
@@ -2456,17 +2333,12 @@
                             <directions>
                                 <direction looping="true" timeBetweenFrames="0.200000">
                                     <sprites>
-<<<<<<< HEAD
                                         <sprite hasCustomCollisionMask="true" image="2.png">
-=======
-                                        <sprite hasCustomCollisionMask="true" image="11.png">
->>>>>>> feature/Dan
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
                                             <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
                                             <customCollisionMask>
                                                 <polygon>
-<<<<<<< HEAD
                                                     <vertice x="16.000000" y="6.000000" />
                                                     <vertice x="33.000000" y="6.000000" />
                                                     <vertice x="44.000000" y="25.000000" />
@@ -2478,24 +2350,11 @@
                                             </customCollisionMask>
                                         </sprite>
                                         <sprite hasCustomCollisionMask="true" image="1.png">
-=======
-                                                    <vertice x="10.000000" y="24.000000" />
-                                                    <vertice x="17.000000" y="6.000000" />
-                                                    <vertice x="30.000000" y="6.000000" />
-                                                    <vertice x="39.000000" y="19.000000" />
-                                                    <vertice x="35.000000" y="42.000000" />
-                                                    <vertice x="14.000000" y="43.000000" />
-                                                </polygon>
-                                            </customCollisionMask>
-                                        </sprite>
-                                        <sprite hasCustomCollisionMask="true" image="12.png">
->>>>>>> feature/Dan
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
                                             <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
                                             <customCollisionMask>
                                                 <polygon>
-<<<<<<< HEAD
                                                     <vertice x="16.000000" y="6.000000" />
                                                     <vertice x="33.000000" y="6.000000" />
                                                     <vertice x="44.000000" y="25.000000" />
@@ -2507,24 +2366,11 @@
                                             </customCollisionMask>
                                         </sprite>
                                         <sprite hasCustomCollisionMask="true" image="3.png">
-=======
-                                                    <vertice x="10.000000" y="24.000000" />
-                                                    <vertice x="17.000000" y="6.000000" />
-                                                    <vertice x="30.000000" y="6.000000" />
-                                                    <vertice x="39.000000" y="19.000000" />
-                                                    <vertice x="35.000000" y="42.000000" />
-                                                    <vertice x="14.000000" y="43.000000" />
-                                                </polygon>
-                                            </customCollisionMask>
-                                        </sprite>
-                                        <sprite hasCustomCollisionMask="true" image="10.png">
->>>>>>> feature/Dan
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
                                             <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
                                             <customCollisionMask>
                                                 <polygon>
-<<<<<<< HEAD
                                                     <vertice x="16.000000" y="6.000000" />
                                                     <vertice x="33.000000" y="6.000000" />
                                                     <vertice x="44.000000" y="25.000000" />
@@ -2532,14 +2378,6 @@
                                                     <vertice x="18.000000" y="46.000000" />
                                                     <vertice x="8.000000" y="36.000000" />
                                                     <vertice x="9.000000" y="22.000000" />
-=======
-                                                    <vertice x="10.000000" y="24.000000" />
-                                                    <vertice x="17.000000" y="6.000000" />
-                                                    <vertice x="30.000000" y="6.000000" />
-                                                    <vertice x="39.000000" y="19.000000" />
-                                                    <vertice x="35.000000" y="42.000000" />
-                                                    <vertice x="14.000000" y="43.000000" />
->>>>>>> feature/Dan
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -2549,48 +2387,14 @@
                         </animation>
                         <animation name="" useMultipleDirections="false">
                             <directions>
-<<<<<<< HEAD
-                                <direction looping="false" timeBetweenFrames="1.000000">
-                                    <sprites>
-                                        <sprite hasCustomCollisionMask="false" image="10.png">
-=======
                                 <direction looping="true" timeBetweenFrames="0.200000">
                                     <sprites>
-                                        <sprite hasCustomCollisionMask="true" image="2.png">
->>>>>>> feature/Dan
-                                            <points />
-                                            <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
-                                            <customCollisionMask>
-                                                <polygon>
-<<<<<<< HEAD
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="50.000000" y="0.000000" />
-                                                    <vertice x="50.000000" y="50.000000" />
-                                                    <vertice x="0.000000" y="50.000000" />
-                                                </polygon>
-                                            </customCollisionMask>
-                                        </sprite>
                                         <sprite hasCustomCollisionMask="false" image="11.png">
-=======
-                                                    <vertice x="16.000000" y="6.000000" />
-                                                    <vertice x="33.000000" y="6.000000" />
-                                                    <vertice x="44.000000" y="25.000000" />
-                                                    <vertice x="37.000000" y="42.000000" />
-                                                    <vertice x="18.000000" y="46.000000" />
-                                                    <vertice x="8.000000" y="36.000000" />
-                                                    <vertice x="9.000000" y="22.000000" />
-                                                </polygon>
-                                            </customCollisionMask>
-                                        </sprite>
-                                        <sprite hasCustomCollisionMask="true" image="1.png">
->>>>>>> feature/Dan
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
                                             <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
                                             <customCollisionMask>
                                                 <polygon>
-<<<<<<< HEAD
                                                     <vertice x="0.000000" y="0.000000" />
                                                     <vertice x="50.000000" y="0.000000" />
                                                     <vertice x="50.000000" y="50.000000" />
@@ -2599,38 +2403,28 @@
                                             </customCollisionMask>
                                         </sprite>
                                         <sprite hasCustomCollisionMask="false" image="12.png">
-=======
-                                                    <vertice x="16.000000" y="6.000000" />
-                                                    <vertice x="33.000000" y="6.000000" />
-                                                    <vertice x="44.000000" y="25.000000" />
-                                                    <vertice x="37.000000" y="42.000000" />
-                                                    <vertice x="18.000000" y="46.000000" />
-                                                    <vertice x="8.000000" y="36.000000" />
-                                                    <vertice x="9.000000" y="22.000000" />
-                                                </polygon>
-                                            </customCollisionMask>
-                                        </sprite>
-                                        <sprite hasCustomCollisionMask="true" image="3.png">
->>>>>>> feature/Dan
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
                                             <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
                                             <customCollisionMask>
                                                 <polygon>
-<<<<<<< HEAD
                                                     <vertice x="0.000000" y="0.000000" />
                                                     <vertice x="50.000000" y="0.000000" />
                                                     <vertice x="50.000000" y="50.000000" />
                                                     <vertice x="0.000000" y="50.000000" />
-=======
-                                                    <vertice x="16.000000" y="6.000000" />
-                                                    <vertice x="33.000000" y="6.000000" />
-                                                    <vertice x="44.000000" y="25.000000" />
-                                                    <vertice x="37.000000" y="42.000000" />
-                                                    <vertice x="18.000000" y="46.000000" />
-                                                    <vertice x="8.000000" y="36.000000" />
-                                                    <vertice x="9.000000" y="22.000000" />
->>>>>>> feature/Dan
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                        <sprite hasCustomCollisionMask="false" image="10.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="0.000000" />
+                                                    <vertice x="50.000000" y="50.000000" />
+                                                    <vertice x="0.000000" y="50.000000" />
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -2695,28 +2489,9 @@
                         </animation>
                         <animation name="" useMultipleDirections="false">
                             <directions>
-<<<<<<< HEAD
-                                <direction looping="false" timeBetweenFrames="0.100000">
-                                    <sprites>
-                                        <sprite hasCustomCollisionMask="false" image="dyingzombie_front1.png">
-                                            <points />
-                                            <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
-                                            <customCollisionMask>
-                                                <polygon>
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="50.000000" y="0.000000" />
-                                                    <vertice x="50.000000" y="50.000000" />
-                                                    <vertice x="0.000000" y="50.000000" />
-                                                </polygon>
-                                            </customCollisionMask>
-                                        </sprite>
-                                        <sprite hasCustomCollisionMask="false" image="dyingzombie_front2.png">
-=======
                                 <direction looping="false" timeBetweenFrames="0.500000">
                                     <sprites>
                                         <sprite hasCustomCollisionMask="false" image="dyingzombie_left2.png">
->>>>>>> feature/Dan
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
                                             <centerPoint automatic="true" name="centre" x="25.000000" y="25.000000" />
@@ -2857,11 +2632,7 @@
                         </animation>
                     </animations>
                 </object>
-<<<<<<< HEAD
-                <object name="NewObject9" type="Sprite">
-=======
                 <object name="Bullet" type="Sprite">
->>>>>>> feature/Dan
                     <variables />
                     <behaviors />
                     <animations>
@@ -2869,18 +2640,6 @@
                             <directions>
                                 <direction looping="false" timeBetweenFrames="1.000000">
                                     <sprites>
-<<<<<<< HEAD
-                                        <sprite hasCustomCollisionMask="false" image="TopSideIce - Copy.png">
-                                            <points />
-                                            <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="50.000000" y="50.000000" />
-                                            <customCollisionMask>
-                                                <polygon>
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="100.000000" y="0.000000" />
-                                                    <vertice x="100.000000" y="100.000000" />
-                                                    <vertice x="0.000000" y="100.000000" />
-=======
                                         <sprite hasCustomCollisionMask="false" image="Bullet.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
@@ -2891,7 +2650,6 @@
                                                     <vertice x="10.000000" y="0.000000" />
                                                     <vertice x="10.000000" y="10.000000" />
                                                     <vertice x="0.000000" y="10.000000" />
->>>>>>> feature/Dan
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -3171,16 +2929,12 @@
                         </animation>
                     </animations>
                 </object>
-<<<<<<< HEAD
-                <object name="Bullet" type="Sprite">
-=======
                 <object name="NewObject" type="Sprite">
                     <variables />
                     <behaviors />
                     <animations />
                 </object>
                 <object name="lives" type="Sprite">
->>>>>>> feature/Dan
                     <variables />
                     <behaviors />
                     <animations>
@@ -3188,18 +2942,6 @@
                             <directions>
                                 <direction looping="false" timeBetweenFrames="1.000000">
                                     <sprites>
-<<<<<<< HEAD
-                                        <sprite hasCustomCollisionMask="false" image="Bullet.png">
-                                            <points />
-                                            <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="5.000000" y="5.000000" />
-                                            <customCollisionMask>
-                                                <polygon>
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="10.000000" y="0.000000" />
-                                                    <vertice x="10.000000" y="10.000000" />
-                                                    <vertice x="0.000000" y="10.000000" />
-=======
                                         <sprite hasCustomCollisionMask="false" image="full_live.png">
                                             <points />
                                             <originPoint name="origine" x="0.000000" y="0.000000" />
@@ -3231,7 +2973,6 @@
                                                     <vertice x="261.000000" y="0.000000" />
                                                     <vertice x="261.000000" y="22.000000" />
                                                     <vertice x="0.000000" y="22.000000" />
->>>>>>> feature/Dan
                                                 </polygon>
                                             </customCollisionMask>
                                         </sprite>
@@ -3247,45 +2988,6 @@
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
-<<<<<<< HEAD
-                            <type inverted="false" value="Timer" />
-                            <parameters>
-                                <parameter></parameter>
-                                <parameter>5</parameter>
-                                <parameter>&quot;EnemyCreation&quot;</parameter>
-                            </parameters>
-                            <subConditions />
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action>
-                            <type inverted="false" value="ResetTimer" />
-                            <parameters>
-                                <parameter></parameter>
-                                <parameter>&quot;EnemyCreation&quot;</parameter>
-                            </parameters>
-                            <subActions />
-                        </action>
-                        <action>
-                            <type inverted="false" value="Create" />
-                            <parameters>
-                                <parameter></parameter>
-                                <parameter>enemy</parameter>
-                                <parameter>32</parameter>
-                                <parameter>32</parameter>
-                                <parameter></parameter>
-                            </parameters>
-                            <subActions />
-                        </action>
-                    </actions>
-                    <events />
-                </event>
-                <event disabled="false" folded="false">
-                    <type>BuiltinCommonInstructions::Standard</type>
-                    <conditions>
-                        <condition>
-=======
->>>>>>> feature/Dan
                             <type inverted="false" value="KeyPressed" />
                             <parameters>
                                 <parameter></parameter>
@@ -3482,11 +3184,7 @@
                         </event>
                     </events>
                 </event>
-<<<<<<< HEAD
-                <event disabled="true" folded="false">
-=======
                 <event disabled="false" folded="false">
->>>>>>> feature/Dan
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -3509,8 +3207,6 @@
                             </parameters>
                             <subActions />
                         </action>
-<<<<<<< HEAD
-=======
                         <action>
                             <type inverted="false" value="ModVarGlobal" />
                             <parameters>
@@ -3520,7 +3216,6 @@
                             </parameters>
                             <subActions />
                         </action>
->>>>>>> feature/Dan
                     </actions>
                     <events />
                 </event>
@@ -3552,11 +3247,7 @@
                             <parameters>
                                 <parameter>player</parameter>
                                 <parameter>=</parameter>
-<<<<<<< HEAD
                                 <parameter>3</parameter>
-=======
-                                <parameter>2</parameter>
->>>>>>> feature/Dan
                             </parameters>
                             <subActions />
                         </action>
@@ -3617,11 +3308,7 @@
                             <parameters>
                                 <parameter>player</parameter>
                                 <parameter>=</parameter>
-<<<<<<< HEAD
                                 <parameter>2</parameter>
-=======
-                                <parameter>3</parameter>
->>>>>>> feature/Dan
                             </parameters>
                             <subActions />
                         </action>
@@ -3654,11 +3341,7 @@
                         </event>
                     </events>
                 </event>
-<<<<<<< HEAD
-                <event disabled="false" folded="false">
-=======
                 <event disabled="true" folded="false">
->>>>>>> feature/Dan
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
@@ -3674,9 +3357,21 @@
                     </conditions>
                     <actions>
                         <action>
-                            <type inverted="false" value="Arreter" />
+                            <type inverted="false" value="ResetTimer" />
                             <parameters>
+                                <parameter></parameter>
+                                <parameter>&quot;EnemyCreation&quot;</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="Create" />
+                            <parameters>
+                                <parameter></parameter>
                                 <parameter>enemy</parameter>
+                                <parameter>160</parameter>
+                                <parameter>288</parameter>
+                                <parameter></parameter>
                             </parameters>
                             <subActions />
                         </action>
@@ -3685,8 +3380,6 @@
                 </event>
                 <event disabled="false" folded="false">
                     <type>BuiltinCommonInstructions::Standard</type>
-<<<<<<< HEAD
-=======
                     <conditions />
                     <actions>
                         <action>
@@ -3817,7 +3510,6 @@
                 </event>
                 <event disabled="false" folded="false">
                     <type>BuiltinCommonInstructions::Standard</type>
->>>>>>> feature/Dan
                     <conditions>
                         <condition>
                             <type inverted="false" value="KeyReleased" />
@@ -3878,16 +3570,6 @@
                             <subActions />
                         </action>
                         <action>
-<<<<<<< HEAD
-                            <type inverted="false" value="Arreter" />
-                            <parameters>
-                                <parameter>enemy</parameter>
-                            </parameters>
-                            <subActions />
-                        </action>
-                        <action>
-=======
->>>>>>> feature/Dan
                             <type inverted="false" value="ModVarObjet" />
                             <parameters>
                                 <parameter>player</parameter>
@@ -3907,16 +3589,9 @@
                             <subActions />
                         </action>
                         <action>
-<<<<<<< HEAD
-                            <type inverted="false" value="Delete" />
-                            <parameters>
-                                <parameter>enemy</parameter>
-                                <parameter></parameter>
-=======
                             <type inverted="false" value="Arreter" />
                             <parameters>
                                 <parameter>enemy</parameter>
->>>>>>> feature/Dan
                             </parameters>
                             <subActions />
                         </action>
@@ -3925,18 +3600,6 @@
                 </event>
                 <event disabled="false" folded="false">
                     <type>BuiltinCommonInstructions::Standard</type>
-<<<<<<< HEAD
-                    <conditions />
-                    <actions>
-                        <action>
-                            <type inverted="false" value="AddForceVersPos" />
-                            <parameters>
-                                <parameter>enemy</parameter>
-                                <parameter>player.X()</parameter>
-                                <parameter>player.Y()</parameter>
-                                <parameter>20</parameter>
-                                <parameter>0</parameter>
-=======
                     <conditions>
                         <condition>
                             <type inverted="false" value="Collision" />
@@ -4022,7 +3685,6 @@
                                 <parameter></parameter>
                                 <parameter>&quot;game_over&quot;</parameter>
                                 <parameter>true</parameter>
->>>>>>> feature/Dan
                             </parameters>
                             <subActions />
                         </action>
